@@ -5,9 +5,33 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #EDF5F5;
   --foreground: #171717;
+  --primary: #27B2D9; 
+  --primary-v2: #2765d9; 
+  --secondary: #8ADCF3; 
+  --accent: #3CCFF8; 
+  --dashboard: #D6F2FB;
+  --black: #000000; 
+  --shadows: #000000de;
+  --shadows-v2: #ffffff; 
+  --white: #FFFFFF; 
+  --danger: rgba(165, 7, 7, 0.877); 
+  --danger-v2: rgba(219, 11, 11, 0.603);
 }
+
+h1 {
+  margin: 0px;
+  font-size: 4.210rem; 
+}
+h2 {font-size: 3.158rem; /* 50.56px */}
+
+h3 {font-size: 2.369rem; /* 37.92px */}
+
+h4 {font-size: 1.777rem; /* 28.48px */}
+
+h5 {font-size: 1.333rem;} 
+
 
 @media (prefers-color-scheme: dark) {
   :root {
